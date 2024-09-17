@@ -48,7 +48,7 @@
   },
   "jest": {
     "preset": "react-native",
-    "setupFilesAfterEnv": ["@testing-library/react-native/extend-expect"],
+
     "moduleFileExtensions": [
       "ts",
       "tsx",
