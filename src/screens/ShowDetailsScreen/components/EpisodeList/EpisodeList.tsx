@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import {useNavigation} from '@react-navigation/native';
 import React, {useRef, useState} from 'react';
 import {
