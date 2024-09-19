@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import {PageData} from '../../models/CommonModels';
 import {Episode, GroupedEpisodes} from '../../models/EpisodeModel';
 import {Show} from '../../models/ShowModel';
