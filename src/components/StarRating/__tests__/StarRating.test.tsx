@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import {render} from '@testing-library/react-native';
+//import {render} from '@testing-library/react-native';
+import {render} from 'test-utils';
 import {StarRating} from '../StarRating';
 // npx jest --testPathPattern=StarRating --coverage
 
@@ -31,7 +32,7 @@ function starIcon() {
 }
 
 function nothing() {
-  const {container} = render(<StarRating />);
+  const {container} = render(<StarRating />, {wrapper: undefined});
 
   expect(container.children.length).toEqual(0);
 }
